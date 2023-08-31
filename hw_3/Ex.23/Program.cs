@@ -10,7 +10,7 @@ void Cubes(int num)
     for(int i = 1; i < num; i++)
     {
         int cube = (int) Math.Pow(i, 3);
-        Console.Write($"{cube}, ");
+        Console.WriteLine($"{cube}");
 
     }
 
